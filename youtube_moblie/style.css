@@ -7,6 +7,12 @@
     --grey-dark-color:#909090;
     --grey-light-color:#e0e0e0;
     /* Size */
+    --side-padding: 12px;
+    --avatar-size: 36px;
 
     /* Font Size */
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
 }
