@@ -16,3 +16,19 @@
     --font-small: 12px;
     --font-micro: 10px;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--side-padding);
+}
