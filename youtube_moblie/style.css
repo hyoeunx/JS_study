@@ -27,6 +27,10 @@ body {
     font-family: Roboto;
 }
 
+ui {
+    list-style: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -65,7 +69,7 @@ header .icons .fa-search {
     padding: var(--padding);
 }
 
-.hashtags {
+.info .metadata .hashtags {
     display: flex;
     font-size: var(--font-small);
     color: var(--blue-color);
@@ -73,4 +77,12 @@ header .icons .fa-search {
 
 .hashtags li {
     margin-right: var(--padding);
+}
+
+.info .metadata .titleAndButton {
+    display: flex;
+}
+
+.info .metadata .titleAndButton .title {
+    font-size: var(--font-medium);
 }
