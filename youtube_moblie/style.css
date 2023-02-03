@@ -75,6 +75,12 @@ header .icons .fa-search {
     color: var(--blue-color);
 }
 
+.hashtags{
+    display: flex;
+    font-size: var(--font-small);
+    color: var(--blue-color);
+}
+
 .hashtags li {
     margin-right: var(--padding);
 }
