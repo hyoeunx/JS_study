@@ -27,8 +27,13 @@ body {
     font-family: Roboto;
 }
 
-ui {
+ul {
     list-style: none;
+}
+
+button,
+button:focus {
+    border: none;
 }
 
 header {
